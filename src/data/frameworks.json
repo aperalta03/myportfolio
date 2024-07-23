@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Streamlit",
+        "imageSrc": "skills/streamlit.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "skills/react.png"
+    },
+    {
+        "title": "AWS",
+        "imageSrc": "skills/aws.png"
+    },
+    {
+        "title": "Firebase",
+        "imageSrc": "skills/firebase.png"
+    }
+]

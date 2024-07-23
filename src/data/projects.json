@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Printer Hub",
+        "demoSrc": "../../../assets/projects/printerhub_demo.mp4",
+        "description": "Developed a full-stack app to manage prints remotely for a 3D Printer Farm.",
+        "skills": ["JavaScript", "React", "HTML", "CSS", "Firebase", "PrusaLink API"],
+        "idea": "OpenHub",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "MedGet",
+        "demoSrc": "../../../assets/projects/medget_demo.mp4",
+        "description": "Developed a front-end app to analyze medical data using LLMs. Consultancy Project from NeuroX1, a startup at Austin, TX.",
+        "skills": ["Python", "Streamlit", "HuggingFace", "OpenAI API"],
+        "idea": "NeuroX1",
+        "source": "https://www.github.com"
+    }
+]

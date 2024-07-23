@@ -1,0 +1,27 @@
+[
+    {
+        "course": "CSCE 221",
+        "subject": "Data Structures and Algorithms",
+        "image": "education/binaryTree.png"
+    },
+    {
+        "course": "CSCE 222",
+        "subject": "Discrete Math for Computing",
+        "image": "education/graph.png"
+    },
+    {
+        "course": "ECEN 214",
+        "subject": "Circuit Theory",
+        "image": "education/circuit.png"
+    },
+    {
+        "course": "ECEN 350",
+        "subject": "Computer Architecture",
+        "image": "education/pcb.png"
+    },
+    {
+        "course": "ECEN 469",
+        "subject": "Advanced Computer Architecture",
+        "image": "education/cpu.png"
+    }
+]

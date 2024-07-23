@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Cypher - Graph Data Science",
+        "issuer":  "Neo4j",
+        "date": "06-30-2024",
+        "link": "https://graphacademy.neo4j.com/c/3f432f88-3911-4ec4-875b-9cf415e96995/"
+    },
+    {
+        "title": "Cloud Technical Essentials",
+        "issuer":  "AWS",
+        "date": "07-02-2024",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/6SA7Y8LZR7R3"  
+    },
+    {
+        "title": "Architecting Solutions",
+        "issuer":  "AWS",
+        "date": "07-05-2024",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/3KUVKZABJNUR"  
+    },
+    {
+        "title": "Intro to Designing Data Lakes",
+        "issuer":  "AWS",
+        "date": "07-05-2024",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/R6WKNGJ6BEK4"  
+    }
+]

@@ -1,0 +1,66 @@
+JSON Projects:
+    {
+        "title": "CargoPeru - WIP",
+        "imageSrc": "projects/project.png",
+        "description": "Startup Attempt/Full-Stack Experience",
+        "skills": ["React Native", "Python", "Django", "MongoDB", "AI/ML"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "TO-DO App - WIP",
+        "imageSrc": "projects/project.png",
+        "description": "I got tired of TO-DO Apps in the app store not satisfying my specific use case.",
+        "skills": ["React Native", "Python", "Django", "MongoDB", "AI/ML"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Project Recommender - WIP",
+        "imageSrc": "projects/project.png",
+        "description": "Always ran into the problem of thinking about good project ideas. How about I leverage AI?",
+        "skills": ["React", "Python", "AI/ML"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "This Portfolio",
+        "imageSrc": "projects/portfolio.png",
+        "description": "A side project to cement my knowledge of React, HTML, and CSS.",
+        "skills": ["ReactJS", "CSS", "HTML"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    ####################################################################################################################
+    {
+        "title": "Rate My AI",
+        "imageSrc": "projects/rmp.png",
+        "description": "WIP",
+        "skills": ["Python", "RAG", "OpenAI API", "Vectors"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Flash.AI",
+        "imageSrc": "projects/flashcards.png",
+        "description": "WIP",
+        "skills": ["Python", "OpenAI API", "Authentication", "StripeAPI"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Support.AI",
+        "imageSrc": "projects/customer.png",
+        "description": "WIP",
+        "skills": ["Python", "OpenAI API", "NextJS", "AWS"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },
+    {
+        "title": "Pantry Tracker",
+        "imageSrc": "projects/pantry.png",
+        "description": "WIP",
+        "skills": ["Python", "ReactJS", "NextJS", "Firebase"],
+        "demo": "https://www.example.com",
+        "source": "https://www.github.com"
+    },

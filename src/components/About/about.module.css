@@ -1,0 +1,114 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    z-index: 1;
+    border-top: solid 5px var(--color-dark);
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 10%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+/* About */
+.aboutBox {
+    display: flex;
+    width: 40vw;
+    height: 55%;
+    margin-left: 20vw;
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutText {
+    color: var(--color-text);
+    font-weight: 300px;
+    font-size: 25px;
+    letter-spacing: 1.75px; 
+}
+
+/* Socials */
+.textContainer {
+    width: 30%;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    gap: 20px;   
+}
+.socialContainer {
+    display: grid;
+    flex-direction: column;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20vw;
+}
+.socialBox {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(140, 139, 139);
+    background-color: var(--color-dark);
+    padding: 20px;
+    height: 30px;
+    border: solid var(--color-dark);
+    min-width: 300px;
+}
+.socialImg {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.social {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+/* Slideshow */
+.pictureContainer {
+    width: 35%;
+    height: 570px;
+    margin-bottom: 40px;
+    margin-left: 20vw;
+    margin-bottom: 70px;
+    z-index: 3;
+    border-radius: 20px;
+    box-shadow: 0 0 15px var(--color-dark);
+}
+/* Blurs */
+.blurOne {
+    position: absolute;
+    width: 90vw;
+    height: 30vw;
+    top: 10vw;
+    left: 5vw;
+    border-radius: 764px;
+    background: rgba(120, 119, 119, 0.7);
+    filter: blur(100px);
+    z-index: 2;
+}
+/* Phone Screen */
+@media screen and (max-width: 830px) {
+    .container {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+}

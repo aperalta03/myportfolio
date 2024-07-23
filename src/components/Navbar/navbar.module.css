@@ -1,0 +1,134 @@
+@import "../../../vars.css";
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    background: url('../../assets/hero/zachary.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: var(--color-text);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.blurredContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 80%;
+    padding: 70px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin: 30px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
+.title {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+    color: var(--color-dark);
+}
+
+.description {
+    font-size: 30px;
+    font-family: var(--font-roboto);
+    margin-bottom: 20px;
+    color: var(--color-dark);
+}
+.heroImg {
+    width: 25%;
+    z-index: 1;
+    border: solid var(--color-dark) 5px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 50);
+}
+/* Depth */
+.topBlur {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background: rgba(120, 119, 119, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+
+.bottomBlur {
+    position: absolute;
+    width: 70vw;
+    height: 50vw;
+    min-width: 250px;
+    min-height: 350px;
+    top: 246px;
+    right: -25vw;
+    border-radius: 764px;
+    background: rgba(169, 169, 169, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+/* Hamburger Menu */
+.menu {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+}
+.menuBtn {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.menuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    max-height: 0; /* Initially collapsed */
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+.menuItem {
+    text-decoration: none;
+    color: var(--color-dark);
+    font-weight: 1000px;
+}
+.menu:hover .menuItems {
+    max-height: 300px; /* Adjust according to your content */
+    opacity: 1;
+}
+
+/* For Vertical Screens */
+@media screen and (max-width: 830px) {
+    
+}

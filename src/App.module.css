@@ -1,0 +1,55 @@
+@import "./vars.css";
+
+.App {
+    background-color: var(--color-bg);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    /* TEMP */
+}
+
+/* Depth */
+.blurOne {
+    position: absolute;
+    width: 50vw;
+    height: 25vw;
+    min-width: 350px;
+    min-height: 350px;
+    top: -128px;
+    left: -10vw;
+    border-radius: 764px;
+    background: rgba(120, 119, 119, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+.blurTwo {
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    top: 150px;
+    right: 10vw;
+    border-radius: 764px;
+    background: rgba(169, 169, 169, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+.blurThree {
+    position: absolute;
+    width: 50vw;
+    height: 50vw;
+    min-width: 250px;
+    min-height: 350px;
+    top: 100vw;
+    right: 25vw;
+    border-radius: 764px;
+    background: rgba(169, 169, 169, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}
+.footer {
+    width: 100%;
+    height: 12vw;
+    background-color: black;
+    z-index: 1;
+}
