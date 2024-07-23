@@ -80,12 +80,10 @@
     letter-spacing: 1.75px;
     text-transform: uppercase;
     z-index: 1;
-    
 }
 .sectionTitleBox {
     display: flex;
     margin: 20px;
-    text-decoration: underline;
 }
 .jobTitle {
     color: var(--color-text);
