@@ -3,25 +3,22 @@
 .container {
     position: relative;
     z-index: 1;
-    border-top: solid 5px var(--color-dark);
+    background-color: var(--color-primary);
+    margin-bottom: 10vw;   
 }
-
 .title {
     color: var(--color-text);
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
-    margin-top: 20px;
     margin-left: 40px;
     width: 10%;
 }
-
 .content {
     display: flex;
     flex-direction: row;
 }
-
 /* About */
 .aboutBox {
     display: flex;
@@ -91,7 +88,7 @@
 /* Blurs */
 .blurOne {
     position: absolute;
-    width: 90vw;
+    width: 80vw;
     height: 30vw;
     top: 10vw;
     left: 5vw;

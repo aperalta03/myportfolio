@@ -130,7 +130,7 @@
     height: 25vw;
     min-width: 350px;
     min-height: 350px;
-    top: 90vw;
+    top: 130vw;
     left: -10vw;
     border-radius: 764px;
     background: rgba(120, 119, 119, 0.7);
@@ -144,22 +144,8 @@
     height: 25vw;
     min-width: 350px;
     min-height: 350px;
-    top: 90vw;
+    top: 130vw;
     left: 60vw;
-    border-radius: 764px;
-    background: rgba(120, 119, 119, 0.7);
-    filter: blur(100px);
-    z-index: 0;
-}
-
-.blurDivider {
-    position: absolute;
-    width: 30vw;
-    height: 30vw;
-    min-width: 350px;
-    min-height: 350px;
-    top: 115vw;
-    left: 35vw;
     border-radius: 764px;
     background: rgba(120, 119, 119, 0.7);
     filter: blur(100px);

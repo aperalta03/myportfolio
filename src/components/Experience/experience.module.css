@@ -7,8 +7,6 @@
     display: flex;
     flex-direction: column;
     background-color: var(--color-primary);
-    border-top: solid 5px var(--color-dark);
-    border-bottom: solid 5px var(--color-dark);
     z-index: 1;
 }
 .sectionTitleBox {
@@ -29,7 +27,7 @@
     height: 30vw;
     min-width: 350px;
     min-height: 350px;
-    top: 115vw;
+    top: 155vw;
     left: 35vw;
     border-radius: 764px;
     background: rgba(120, 119, 119, 0.7);

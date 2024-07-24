@@ -17,6 +17,7 @@
     "firebase": "^10.12.4",
     "magicui-cli": "^0.1.6",
     "marquee": "^0.2.1",
+    "particles.js": "^2.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "typewriter": "^9.2.0",
