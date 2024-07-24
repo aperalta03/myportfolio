@@ -102,7 +102,7 @@ const Footer = () => {
         <footer id="footer" className={styles.footer}>
             <canvas id="webCanvas" className={styles.canvas}></canvas>
             <div className={styles.content}>
-                <p>&copy; {new Date().getFullYear()} Alonso Peralta. All rights reserved.</p>
+                <p alt="Alonso Peralta">&copy; {new Date().getFullYear()} Alonso Peralta. All rights reserved.</p>
             </div>
         </footer>
     );

@@ -31,7 +31,7 @@ const About = () => {
                                     <img 
                                         className={styles.socialImg}
                                         src={getImageUrl(social.img)}
-                                        alt={social.name}
+                                        alt="Alonso Peralta"
                                     />
                                     <div className={styles.social}>
                                         <h1>{social.handle}</h1>

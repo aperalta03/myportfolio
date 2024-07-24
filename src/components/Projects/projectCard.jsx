@@ -27,7 +27,7 @@ const ProjectCard = ({ project, index }) => {
                     </div>
                     <div className={styles.videoContainer}>
                         <video className={styles.video} autoPlay muted loop>
-                            <source src={getImageUrl(project.videoSrc)} type="video/mp4" />
+                            <source src={getImageUrl(project.videoSrc)} type="video/mp4" alt="Alonso Peralta"/>
                                 Your browser does not support the video tag.
                         </video>
                     </div>
@@ -36,7 +36,7 @@ const ProjectCard = ({ project, index }) => {
                 <>
                     <div className={styles.videoContainer}>
                         <video className={styles.video} autoPlay muted loop>
-                            <source src={getImageUrl(project.videoSrc)} type="video/mp4" />
+                            <source src={getImageUrl(project.videoSrc)} type="video/mp4" alt="Alonso Peralta"/>
                                 Your browser does not support the video tag.
                         </video>
                     </div>

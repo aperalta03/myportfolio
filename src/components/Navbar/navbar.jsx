@@ -4,9 +4,8 @@ import TypeWriter from 'typewriter-effect';
 import HamburgerMenu from "../Nested/Hamburger/hamburgermenu";
 
 export const Navbar = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
     return (
-        <section className={styles.container}>
+        <section className={styles.container} alt="Alonso Peralta">
             <div className={styles.content}>
                 <div className={styles.blurredContainer}>
                     <h1 className={styles.title}>

@@ -26,13 +26,13 @@ const ExperienceCard = ({ experience, index }) => {
                         </div>
                     </div>
                     <div className={styles.logoContainerA} style={{ backgroundImage: `url(${getImageUrl(experience.background)})` }}>
-                        <img className={styles.logoA} src={getImageUrl(experience.logo)} alt={`${experience.title} Logo`} />
+                        <img className={styles.logoA} src={getImageUrl(experience.logo)} alt="Alonso Peralta" />
                     </div>
                 </>
             ) : (
                 <>
                     <div className={styles.logoContainerB} style={{ backgroundImage: `url(${getImageUrl(experience.background)})` }}>
-                        <img className={styles.logoB} src={getImageUrl(experience.logo)} alt={`${experience.title} Logo`} />
+                        <img className={styles.logoB} src={getImageUrl(experience.logo)} alt="Alonso Peralta" />
                     </div>
                     <div className={styles.contentContainerB}>
                         <div className={styles.jobBoxB}>

@@ -8,7 +8,7 @@ import { Footer } from './components/Footer/footer'
 function App() {
 
   return (
-    <div className = {styles.App}>
+    <div className = {styles.App} alt="Alonso Peralta">
       <Navbar />
       <About />
       <Experience />

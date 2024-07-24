@@ -6,7 +6,7 @@ const SkillCard = ({ img, title }) => {
     return (
         <div className={styles.skill}>
             <div className={styles.skillImageContainer}>
-                <img src={img} alt={title} />
+                <img src={img} alt="Alonso Peralta" />
             </div>
             <p>{title}</p>
         </div>

@@ -35,7 +35,7 @@ const Slideshow = ({ images, interval = 10000 }) => {
                         key={index}
                         className={`${styles.slide} ${index === currentIndex ? styles.active : ''}`}
                     >
-                        <img src={getImageUrl(image)} alt={`Slide ${index}`} />
+                        <img src={getImageUrl(image)} alt="Alonso Peralta" />
                     </div>
                 ))}
             </div>
