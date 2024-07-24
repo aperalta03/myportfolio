@@ -4,7 +4,8 @@
     position: relative;
     z-index: 1;
     background-color: var(--color-primary);
-    margin-bottom: 10vw;   
+    margin-bottom: 10vw;
+    padding-top: 5vw;   
 }
 .title {
     color: var(--color-text);
