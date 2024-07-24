@@ -1,0 +1,41 @@
+/* hamburgerMenu.module.css */
+.menu {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+}
+.menuBtn {
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.menuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 24px 33px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+.menuItem {
+    text-decoration: none;
+    color: var(--color-dark);
+    font-weight: 1000px;
+}
+.menu:hover .menuItems {
+    max-height: 300px;
+    opacity: 1;
+}

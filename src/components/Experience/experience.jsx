@@ -6,7 +6,8 @@ export const Experience = () => {
 
     return (
         <section className={styles.container} id="experience">
-            {/* Experience 1 */}
+            {/* Experiences */}
+                {/* Experience 1 */}
             <div className={styles.experienceContainer}>
                 <div className={styles.contentContainerA}>
                     <div className={styles.sectionTitleBox}>   
@@ -27,7 +28,7 @@ export const Experience = () => {
                 </div>
                 <div className={styles.blurOne}/>
             </div>
-            {/* Experience 2 */}
+                {/* Experience 2 */}
             <div className={styles.experienceContainer}>
                 <div className={styles.blurTwo}/>
                 <div className={styles.logoContainerB}>
@@ -45,6 +46,7 @@ export const Experience = () => {
                 </div>
             </div>
             <div className={styles.blurDivider}></div>
+            {/* Experiences */}
         </section>
     );
 };
