@@ -13,16 +13,6 @@ const Slideshow = ({ images, interval = 10000 }) => {
         return () => clearInterval(timer);
     }, [images.length, interval]);
 
-    const goToPrevious = () => {
-        setCurrentIndex((prevIndex) =>
-            prevIndex === 0 ? images.length - 1 : prevIndex - 1
-        );
-    };
-
-    const goToNext = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    };
-
     const goToSlide = (index) => {
         setCurrentIndex(index);
     };
