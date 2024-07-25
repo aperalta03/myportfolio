@@ -4,7 +4,13 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
     overflow: hidden;
+    position: relative;
+}
+
+.firstContainer {
+    align-items: flex-start; /* Override to none for the first container */
 }
 
 /* A = Container WITHOUT Section Title */
@@ -12,7 +18,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    align-items: left;
+    align-items: flex-start;
 }
 
 .jobBoxA {
@@ -33,7 +39,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    align-items: left;
+    align-items: flex-start;
 }
 
 .jobBoxB {
@@ -44,7 +50,6 @@
     max-height: 100px;
     padding: 60px;
     width: 65%;
-    margin-top: 100px;
     margin-left: 60px;
     z-index: 1;
 }
@@ -53,17 +58,19 @@
     width: 70%;
     height: 30vw;
     position: relative;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 1);
-    margin-top: 5px;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .video {
-    width: 100%;
+    width: 60vw;
     height: 100%;
     object-fit: cover;
 }
-
+.firstVideoContainer {
+    align-items: flex-start;
+}
 /* General Text Styling */
 .sectionTitle {
     color: var(--color-text);
@@ -103,7 +110,6 @@
     height: 25vw;
     min-width: 350px;
     min-height: 350px;
-    top: 190vw;
     left: -10vw;
     border-radius: 764px;
     background: rgba(120, 119, 119, 0.7);
@@ -117,7 +123,6 @@
     height: 25vw;
     min-width: 350px;
     min-height: 350px;
-    top: 190vw;
     left: 60vw;
     border-radius: 764px;
     background: rgba(120, 119, 119, 0.7);

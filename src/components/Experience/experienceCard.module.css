@@ -4,17 +4,18 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    overflow: hidden;
+    position: relative;
 }
-
+.firstContainer {
+    align-items: flex-start; /* Override to none for the first container */
+}
 /* A = Container WITHOUT Section Title */
 .contentContainerA {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    align-items: left;
+    align-items: flex-start;
 }
-
 .jobBoxA {
     display: flex;
     flex-direction: column;
@@ -27,17 +28,14 @@
     margin-left: 30px;
     z-index: 1;
 }
-
 .logoContainerA {
     background-size: cover;
-    width: 70%;
+    width: 90vw;
     height: 30vw;
     position: relative;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 1);
     margin-top: 0px;
     z-index: 1;
 }
-
 .logoA {
     width: 100px;
     height: auto;
@@ -48,15 +46,13 @@
     border: solid var(--color-dark);
     border-radius: 20px;
 }
-
 /* B = Container WITHOUT Section Title */
 .contentContainerB {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-    align-items: left;
+    align-items: flex-start;
 }
-
 .jobBoxB {
     display: flex;
     flex-direction: column;
@@ -69,17 +65,14 @@
     margin-left: 60px;
     z-index: 1;
 }
-
 .logoContainerB {
     background-size: cover;
-    width: 70%;
+    width: 90vw;
     height: 30vw;
     position: relative;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 1);
     margin-top: 5px;
     z-index: 1;
 }
-
 .logoB {
     width: 100px;
     height: auto;
@@ -89,7 +82,6 @@
     border: solid var(--color-dark);
     border-radius: 20px;
 }
-
 /* General Text Styling */
 .sectionTitle {
     color: var(--color-text);
@@ -99,30 +91,25 @@
     text-transform: uppercase;
     z-index: 1;
 }
-
 .sectionTitleBox {
     display: flex;
     margin: 20px;
 }
-
 .jobTitle {
     color: var(--color-text);
     font-size: 30px;
     margin-bottom: 5px;
     letter-spacing: 1px;
 }
-
 .jobDescription {
     color: var(--color-text);
     margin-bottom: 20px;
     font-size: 15px;
 }
-
 .bulletPoint {
     color: var(--color-text);
     margin: 5px;
 }
-
 /* Blur Depth */
 .blurOne {
     position: absolute;
@@ -130,21 +117,18 @@
     height: 25vw;
     min-width: 350px;
     min-height: 350px;
-    top: 130vw;
     left: -10vw;
     border-radius: 764px;
     background: rgba(120, 119, 119, 0.7);
     filter: blur(100px);
     z-index: 0;
 }
-
 .blurTwo {
     position: absolute;
     width: 50vw;
     height: 25vw;
     min-width: 350px;
     min-height: 350px;
-    top: 130vw;
     left: 60vw;
     border-radius: 764px;
     background: rgba(120, 119, 119, 0.7);

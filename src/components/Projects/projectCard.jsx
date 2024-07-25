@@ -6,7 +6,7 @@ const ProjectCard = ({ project, index }) => {
     const isOdd = index % 2 === 0;
 
     return (
-        <div className={styles.projectContainer}>
+        <div className={`${styles.projectContainer} ${index === 0 ? styles.firstContainer : ""}`}>
             {isOdd ? (
                 <>
                     <div className={styles.contentContainerA}>
@@ -25,12 +25,13 @@ const ProjectCard = ({ project, index }) => {
                             </ul>
                         </div>
                     </div>
-                    <div className={styles.videoContainer}>
+                    <div className={`${styles.videoContainer} ${index === 0 ? styles.firstVideoContainer : ""}`}>
                         <video className={styles.video} autoPlay muted loop>
                             <source src={getImageUrl(project.videoSrc)} type="video/mp4" alt="Alonso Peralta"/>
                                 Your browser does not support the video tag.
                         </video>
                     </div>
+                    <div className={styles.blurOne} />
                 </>
             ) : (
                 <>
@@ -51,9 +52,9 @@ const ProjectCard = ({ project, index }) => {
                             </ul>
                         </div>
                     </div>
+                    <div className={styles.blurTwo} />
                 </>
             )}
-            <div className={isOdd ? styles.blurOne : styles.blurTwo} />
         </div>
     );
 };

@@ -6,7 +6,7 @@ const ExperienceCard = ({ experience, index }) => {
     const isOdd = index % 2 === 0;
 
     return (
-        <div className={styles.experienceContainer}>
+        <div className={`${styles.experienceContainer} ${index === 0 ? styles.firstContainer : ""}`}>
             {isOdd ? (
                 <>
                     <div className={styles.contentContainerA}>

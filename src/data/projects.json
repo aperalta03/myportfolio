@@ -1,6 +1,16 @@
 [
     {
         "sectionTitle": "Projects",
+        "title": "3D Printer Hub",
+        "subtitle": "Software Engineer | July 2024 - August 2024",
+        "bulletPoints": [
+            "Project developed during my OpenHub SWE internship. Showcasing the demo.",
+            "The purpose of the project was to cut down time spent going to the printers and to give the head engineer a way to verify every print coming in remotely and efficiently."
+        ],
+        "videoSrc": "projects/printerhub_demo.mp4"
+    },
+    {
+        "sectionTitle": "Projects",
         "title": "MedGet",
         "subtitle": "Software Developer | January 2024 - May 2024",
         "bulletPoints": [
@@ -12,12 +22,13 @@
         "videoSrc": "projects/medget_demo.mp4"
     },
     {
-        "title": "3D Printer Hub",
-        "subtitle": "Software Engineer | July 2024 - August 2024",
+        "sectionTitle": "Projects",
+        "title": "This Portfolio",
+        "subtitle": "Software Engineer | July 2024",
         "bulletPoints": [
-            "Project developed during my OpenHub SWE internship. Showcasing the demo.",
-            "The purpose of the project was to cut down time spent going to the printers and to give the head engineer a way to verify every print coming in remotely and efficiently."
+            "Developed from scratch using Javascript, Node.js, React, HTML, and CSS",
+            "Continously being updated and maintained using a CI/CD pipeline."
         ],
-        "videoSrc": "projects/printerhub_demo.mp4"
+        "videoSrc": "projects/portfolio_demo.mp4"
     }
 ]
