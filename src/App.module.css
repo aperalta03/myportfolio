@@ -1,14 +1,16 @@
 @import "./vars.css";
 
+/* Main Container */
 .App {
     background-color: var(--color-primary);
     width: 100%;
     height: 100%;
     overflow: hidden;
     position: relative;
-    /* TEMP */
 }
-
+::-webkit-scrollbar{
+    display: none;
+}
 /* Depth */
 .blurOne {
     position: absolute;
@@ -47,6 +49,7 @@
     filter: blur(100px);
     z-index: 0;
 }
+/* Footer */
 .footer {
     width: 100%;
     height: 12vw;

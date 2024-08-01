@@ -33,7 +33,6 @@
     width: 90vw;
     height: 30vw;
     position: relative;
-    margin-top: 0px;
     z-index: 1;
 }
 .logoA {
@@ -70,7 +69,6 @@
     width: 90vw;
     height: 30vw;
     position: relative;
-    margin-top: 5px;
     z-index: 1;
 }
 .logoB {
@@ -118,6 +116,7 @@
     min-width: 350px;
     min-height: 350px;
     left: -10vw;
+    top: 10vh;
     border-radius: 764px;
     background: rgba(120, 119, 119, 0.7);
     filter: blur(100px);

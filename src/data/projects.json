@@ -11,13 +11,26 @@
     },
     {
         "sectionTitle": "Projects",
+        "title": "Inventory Tracker",
+        "subtitle": "Software Developer | August 2024",
+        "bulletPoints": [
+            "Developed a full-stack app meant to track inventory or to be used as a centralized database.",
+            "Incorporates users and roles, an AI assistant for data management, data visualization as well as image recognition for data input.",
+            "Leveraged Javascript, Node.js, React.js, Next.js, and Firebase. Libraries and APIs: OpenAI API, Google Cloud Vision API, USDA API, Chart.js, Camera-Pro, and MUI.",
+            "Maintained using a CI/CD Pipeline through Vercel."
+        ],
+        "videoSrc": "projects/inventorytracker_demo.mp4"
+    },
+    {
+        "sectionTitle": "Projects",
         "title": "MedGet",
-        "subtitle": "Software Developer | January 2024 - May 2024",
+        "subtitle": "Software Engineer | August 2024 - Present",
         "bulletPoints": [
             "Consultancy project given by NeuroX1, a biotech startup in Austin, TX.",
-            "Developed a front-end app, used by medical professional to retrieve medical data filtered by a in-house trained LLM.",
-            "Reduced research time in the company by 40hr/week and got poured around $9000/month into a VM for the project by the company.",
-            "Leveraged Python, Streamlit, HuggingFace, and OpenAI API. As well as data visualization libraries: Numpy, Pandas, Matplotlib, and Pychart"
+            "Developing a full-stack app, used by medical professional to retrieve data on drugs filtered by a in-house trained LLM.",
+            "Meant to reduce research time. Currently around $9000/month are being poured by the company into a VM and tokens for the project to train the LLM.",
+            "Leveraging Python, Streamlit, HuggingFace, BioMixtral 8x22B LLM, and OpenAI API. As well as data visualization libraries: Numpy, Pandas, Matplotlib, and Pychart.",
+            "The video demo is from the prototype."
         ],
         "videoSrc": "projects/medget_demo.mp4"
     },
@@ -38,7 +51,7 @@
         "title": "This Portfolio",
         "subtitle": "Software Engineer | July 2024",
         "bulletPoints": [
-            "Developed from scratch using Javascript, Node.js, React, HTML, and CSS",
+            "Developed using Javascript, Node.js, React.js, HTML, and CSS. As well as Firebase for any back-end and hosting.",
             "Continously being updated and maintained using a CI/CD pipeline."
         ],
         "videoSrc": "projects/portfolio_demo.mp4"
