@@ -16,7 +16,7 @@
         "bulletPoints": [
             "Developed a full-stack app meant to track inventory or to be used as a centralized database.",
             "Incorporates users and roles, an AI assistant for data management, data visualization as well as image recognition for data input.",
-            "Leveraged Javascript, Node.js, React.js, Next.js, and Firebase. Libraries and APIs: OpenAI API, Google Cloud Vision API, USDA API, Chart.js, Camera-Pro, and MUI.",
+            "Leveraged Javascript, Node.js, React.js, Next.js, and Firebase. Libraries and APIs: OpenAI API, Google Cloud Vision API, USDA API, Chart.js, Camera-Pro, and MUI. As well as ML trainers like Vertex AI and AutoML.",
             "Maintained using a CI/CD Pipeline through Vercel.",
             "Got around 20 users registered and using the app for their own purposes."
         ],
