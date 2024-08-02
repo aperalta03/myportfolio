@@ -4,9 +4,9 @@
         "title": "Openhub",
         "subtitle": "Software Engineering Intern | June 2024 - Present @ Belgium",
         "bulletPoints": [
-            "Developed a full-stack app, used by a engineers to manage a printer farm. Allowed 7 printers to be used at once, remotely.",
+            "Developed a full-stack app, used by the head engineer to manage a printer farm. Allowed up to 7 printers to be used at once, remotely.",
             "Meant to be used by dozens of employees.",
-            "Leveraged React, Javascript, Python, and Firebase and libraries and APIs like: Flask, Prusalink API, requests, and GoogleAuth."
+            "Leveraged React.js, Javascript, Node.js, Python, and Firebase and libraries and APIs like: Prusalink API, requests, and GoogleAuth."
         ],
         "logo": "history/openhub2.png",
         "background": "history/prusamk4.gif"

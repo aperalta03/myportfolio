@@ -17,7 +17,8 @@
             "Developed a full-stack app meant to track inventory or to be used as a centralized database.",
             "Incorporates users and roles, an AI assistant for data management, data visualization as well as image recognition for data input.",
             "Leveraged Javascript, Node.js, React.js, Next.js, and Firebase. Libraries and APIs: OpenAI API, Google Cloud Vision API, USDA API, Chart.js, Camera-Pro, and MUI.",
-            "Maintained using a CI/CD Pipeline through Vercel."
+            "Maintained using a CI/CD Pipeline through Vercel.",
+            "Got around 20 users registered and using the app for their own purposes."
         ],
         "videoSrc": "projects/inventorytracker_demo.mp4"
     },
@@ -41,7 +42,7 @@
         "bulletPoints": [
             "Project Recommender full-stack app that leverages AI to tailor to your resume and/or skills you know or want to learn.",
             "Leveraged React.js, Javacript, Express.js, Node.js, Firebase, and OpenAI API.",
-            "Had around 20 active users before API tokens ran out.",
+            "Had around 50 active users before API tokens ran out.",
             "Done in a 24 hour period for a hackathon."
         ],
         "videoSrc": "projects/brainstormai_demo.mp4"
@@ -52,7 +53,7 @@
         "subtitle": "Software Engineer | July 2024",
         "bulletPoints": [
             "Developed using Javascript, Node.js, React.js, HTML, and CSS. As well as Firebase for any back-end and hosting.",
-            "Continously being updated and maintained using a CI/CD pipeline."
+            "Continously being updated and maintained using a CI/CD pipeline through Firebase."
         ],
         "videoSrc": "projects/portfolio_demo.mp4"
     }
