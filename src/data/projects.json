@@ -7,20 +7,8 @@
             "Project developed during my OpenHub SWE internship. Showcasing the demo.",
             "The purpose of the project was to cut down time spent going to the printers and to give the head engineer a way to verify every print coming in remotely and efficiently."
         ],
-        "videoSrc": "projects/printerhub_demo.mp4"
-    },
-    {
-        "sectionTitle": "Projects",
-        "title": "Inventory Tracker",
-        "subtitle": "Software Developer | August 2024",
-        "bulletPoints": [
-            "Developed a full-stack app meant to track inventory or to be used as a centralized database.",
-            "Incorporates users and roles, an AI assistant for data management, data visualization as well as image recognition for data input.",
-            "Leveraged Javascript, Node.js, React.js, Next.js, and Firebase. Libraries and APIs: OpenAI API, Google Cloud Vision API, USDA API, Chart.js, Camera-Pro, and MUI. As well as ML trainers like Vertex AI and AutoML.",
-            "Maintained using a CI/CD Pipeline through Vercel.",
-            "Got around 20 users registered and using the app for their own purposes."
-        ],
-        "videoSrc": "projects/inventorytracker_demo.mp4"
+        "videoSrc": "projects/printerhub_demo.mp4",
+        "src": ""
     },
     {
         "sectionTitle": "Projects",
@@ -33,11 +21,52 @@
             "Leveraging Python, Streamlit, HuggingFace, BioMixtral 8x22B LLM, and OpenAI API. As well as data visualization libraries: Numpy, Pandas, Matplotlib, and Pychart.",
             "The video demo is from the prototype."
         ],
-        "videoSrc": "projects/medget_demo.mp4"
+        "videoSrc": "projects/medget_demo.mp4",
+        "src": ""
     },
     {
         "sectionTitle": "Projects",
-        "title": "Brainstorm.ai",
+        "title": "Finance.ai",
+        "subtitle": "Software Developer | August 2024",
+        "bulletPoints": [
+            "Full-stack app developed as a customer support tool for financial tips.",
+            "Showcases a authentication system with Google and a email and password combo, a feedback mechanism for users, multi-language support, and a fine-tunned model for better and more human responses.",
+            "Leveraged Javascript, Node.js, React.js, Next.js, and Firebase. Libraries and APIs: OpenAI API, and OpenAI's Fine-Tunning.",
+            "Maintained using a CI/CD Pipeline through Vercel.",
+            "Got around 15 registered active users using it for daily financial tips for day-to-day decisions."
+        ],
+        "videoSrc": "projects/robinhood.ai_demo.mp4",
+        "src": ""
+    },
+    {
+        "sectionTitle": "Projects",
+        "title": "Flashie",
+        "subtitle": "Software Developer | August 2024",
+        "bulletPoints": [
+            "Full-stack SaaS app that allows users to create flashcards depending on their study or work needs.",
+            "Contains an authentication system, flexible payment system, paywall, and a fine-tuned AI model for precise and accurate card generation.",
+            "Leveraged Javascript, Node.js, React.js, Next.js, and Firebase. Libraries and APIs: OpenAI API, Stripe API, Clerk API, and OpenAI's Fine-Tunning."
+        ],
+        "videoSrc": "projects/flashie.ai_demo.mp4",
+        "src": ""
+    },
+    {
+        "sectionTitle": "Projects",
+        "title": "Inventory Dashboard",
+        "subtitle": "Software Developer | August 2024",
+        "bulletPoints": [
+            "Developed a full-stack app meant to track inventory or to be used as a centralized database.",
+            "Incorporates users and roles, an AI assistant for data management, data visualization as well as image recognition for data input.",
+            "Leveraged Javascript, Node.js, React.js, Next.js, and Firebase. Libraries and APIs: OpenAI API, Google Cloud Vision API, USDA API, Chart.js, Camera-Pro, and MUI. As well as ML trainers like Vertex AI and AutoML.",
+            "Maintained using a CI/CD Pipeline through Vercel.",
+            "Got around 20 users registered and using the app for their own purposes."
+        ],
+        "videoSrc": "projects/inventorytracker_demo.mp4",
+        "src": ""
+    },
+    {
+        "sectionTitle": "Projects",
+        "title": "Brainstorm",
         "subtitle": "Software Developer | July 2024",
         "bulletPoints": [
             "Project Recommender full-stack app that leverages AI to tailor to your resume and/or skills you know or want to learn.",
@@ -45,7 +74,8 @@
             "Had around 50 active users before API tokens ran out.",
             "Done in a 24 hour period for a hackathon."
         ],
-        "videoSrc": "projects/brainstormai_demo.mp4"
+        "videoSrc": "projects/brainstormai_demo.mp4",
+        "src": ""
     },
     {
         "sectionTitle": "Projects",
@@ -55,6 +85,7 @@
             "Developed using Javascript, Node.js, React.js, HTML, and CSS. As well as Firebase for any back-end and hosting.",
             "Continously being updated and maintained using a CI/CD pipeline through Firebase."
         ],
-        "videoSrc": "projects/portfolio_demo.mp4"
+        "videoSrc": "projects/portfolio_demo.mp4",
+        "src": ""
     }
 ]

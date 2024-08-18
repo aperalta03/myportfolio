@@ -134,3 +134,12 @@
     filter: blur(100px);
     z-index: 0;
 }
+/* Phone Styling */
+@media screen and (max-width: 830px) {
+    .blurOne {
+        display: none;
+    }
+    .blurTwo {
+        display: none;
+    }
+}

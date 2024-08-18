@@ -1,4 +1,4 @@
-/* hamburgerMenu.module.css */
+/* Main Container */
 .menu {
     position: absolute;
     right: 30px;
@@ -43,4 +43,15 @@
 .menuOpen {
     max-height: 300px;
     opacity: 1;
+}
+/* Phone Styling */
+@media screen and (max-width: 830px) {
+    .menuBtn {
+        width: 30px;
+        height: 30px;
+    }
+    .menuItems {
+        gap: 10px;
+        padding: 40px 10px;
+    }
 }

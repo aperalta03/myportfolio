@@ -1,5 +1,6 @@
 @import "../../../vars.css";
 
+/* Main Container  */
 .container {
     position: relative;
     display: flex;
@@ -22,7 +23,7 @@
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 95%, var(--color-primary) 100%);
     z-index: 1;
 }
-
+/* Content */
 .content {
     position: relative;
     z-index: 2;
@@ -36,7 +37,6 @@
     width: 80vw;
     height: 20vw;
 }
-
 .blurredContainer {
     position: relative;
     display: flex;
@@ -52,7 +52,7 @@
     margin: 30px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
-
+/* Text */
 .title {
     font-size: 80px;
     font-variant: small-caps;
@@ -61,21 +61,12 @@
     font-family: var(--font-roboto);
     color: var(--color-dark);
 }
-
 .description {
     font-size: 30px;
     font-family: var(--font-roboto);
     margin-bottom: 20px;
     color: var(--color-dark);
 }
-
-.heroImg {
-    width: 25%;
-    z-index: 1;
-    border: solid var(--color-dark) 5px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 50);
-}
-
 /* Depth */
 .topBlur {
     position: absolute;
@@ -90,7 +81,6 @@
     filter: blur(100px);
     z-index: 0;
 }
-
 .bottomBlur {
     position: absolute;
     width: 70vw;
@@ -104,17 +94,19 @@
     filter: blur(100px);
     z-index: 0;
 }
-
-.background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1; /* Ensure background canvas is behind other content */
-}
-
-/* For Vertical Screens */
-@media screen and (max-width: 480px) {
-    
+/* Phone Styling */
+@media screen and (max-width: 830px) {
+    .title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .description {
+        font-size: 10px;
+        font-weight: 1000;
+        margin-bottom: 0px;
+    }
+    .blurredContainer {
+        width: 40%;
+        height: 10%;
+    }
 }

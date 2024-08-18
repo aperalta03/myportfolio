@@ -19,7 +19,6 @@ const About = () => {
                             I am an undergraduate student at Texas A&M University pursuing a
                             Bachelor of Science in Computer Science and Engineering.
                         </p>
-                        <div style={{ height: "20px" }}></div>
                         <p className={styles.aboutText}>
                             I am passionate about traveling and new tech: software engineering, quantum computing, ML/AI, and VR.
                         </p>

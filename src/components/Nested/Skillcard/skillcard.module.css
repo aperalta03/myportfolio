@@ -1,4 +1,4 @@
-/* skillCard.module.css */
+/* Main Container */
 .skill {
     display: flex;
     flex-direction: column;
@@ -22,4 +22,31 @@
     letter-spacing: 1px;
     color: white;
     margin-top: 5px;
+}
+/* Phone Styling */
+@media screen and (max-width: 830px) {
+    .skill {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+    }
+    .skillImageContainer {
+        background: transparent;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .skillImageContainer img {
+        width: 60px;
+    }
+    .skill p {
+        font-size: 25px;
+        font-family: var(--font-roboto);
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: white;
+        margin-top: 5px;
+    }
 }

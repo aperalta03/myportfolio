@@ -116,7 +116,6 @@
     filter: blur(100px);
     z-index: 0;
 }
-
 .blurTwo {
     position: absolute;
     width: 50vw;
@@ -128,4 +127,11 @@
     background: rgba(120, 119, 119, 0.7);
     filter: blur(100px);
     z-index: 0;
+}
+/* Phone Styling */
+@media screen and (max-width: 830px) {
+    .blurOne {
+        width: 0px;
+        height: 0px;
+    }
 }
