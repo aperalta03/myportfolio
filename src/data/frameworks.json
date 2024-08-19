@@ -1,11 +1,19 @@
 [
     {
-        "title": "Streamlit",
-        "imageSrc": "skills/streamlit.png"
+        "title": "React.js",
+        "imageSrc": "skills/react.png"
     },
     {
-        "title": "React",
-        "imageSrc": "skills/react.png"
+        "title": "Node.js",
+        "imageSrc": "skills/node.png"
+    },
+    {
+        "title": "Next.js",
+        "imageSrc": "skills/nextjs.png"
+    },
+    {
+        "title": "Streamlit",
+        "imageSrc": "skills/streamlit.png"
     },
     {
         "title": "AWS",
