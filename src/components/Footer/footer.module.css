@@ -22,3 +22,12 @@
     position: relative;
     z-index: 1;
 }
+/* Phone Styling */
+@media screen and (max-width: 480px) {
+    .canvas {
+        display: none;
+    }
+    .content {
+        font-size: 10px;
+    }
+}

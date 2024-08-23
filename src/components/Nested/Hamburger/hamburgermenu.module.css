@@ -45,13 +45,19 @@
     opacity: 1;
 }
 /* Phone Styling */
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 480px) {
+    .menu {
+        right: 15px;
+        top: 15px;
+    }
+
     .menuBtn {
         width: 30px;
         height: 30px;
     }
+
     .menuItems {
         gap: 10px;
-        padding: 40px 10px;
+        padding: 20px 10px;
     }
 }

@@ -95,18 +95,35 @@
     z-index: 0;
 }
 /* Phone Styling */
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 480px) {
+    .container {
+        height: 50vw;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .content {
+        left: 0;
+        width: 90vw;
+        height: auto;
+        justify-content: flex-start;
+    }
+    .blurredContainer {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin: 0 auto;
+        box-shadow: none;
+    }
     .title {
-        font-size: 20px;
+        font-size: 24px;
         margin-bottom: 10px;
     }
     .description {
-        font-size: 10px;
-        font-weight: 1000;
-        margin-bottom: 0px;
+        font-size: 14px;
+        margin-bottom: 10px;
     }
-    .blurredContainer {
-        width: 40%;
-        height: 10%;
+    .topBlur, .bottomBlur {
+        display: none;
     }
 }

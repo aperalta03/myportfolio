@@ -61,7 +61,8 @@
         width: 100%;
         overflow: hidden;
         position: relative;
-        height: 120px;
+        height: 90px;
+        margin-top: 10px;
     }
     @keyframes slide {
         from {

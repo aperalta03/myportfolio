@@ -7,7 +7,7 @@
     position: relative;
 }
 .firstContainer {
-    align-items: flex-start; /* Override to none for the first container */
+    align-items: flex-start;
 }
 /* A = Container WITHOUT Section Title */
 .contentContainerA {
@@ -135,10 +135,50 @@
     z-index: 0;
 }
 /* Phone Styling */
-@media screen and (max-width: 830px) {
-    .blurOne {
+@media screen and (max-width: 480px) {
+    .experienceContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contentContainerA,
+    .contentContainerB {
+        margin-left: 0;
+        align-items: center;
+        width: 90%;
+    }
+    .jobBoxA,
+    .jobBoxB {
+        width: 100%;
+        max-width: none;
+        max-height: none;
+        padding: 20px;
+        margin: 20px 0;
+    }
+    .logoContainerA, .logoContainerB, .logoA, .logoB {
         display: none;
     }
+    .sectionTitle {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .jobTitle {
+        font-size: 20px;
+        text-align: flex-start;
+    }
+    .jobDescription {
+        font-size: 14px;
+        text-align: flex-start;
+        margin-bottom: 10px;
+        max-width: 80%;
+    }
+    .bulletPoint {
+        font-size: 12px;
+        text-align: left;
+        margin: 2px 0;
+    }
+    /* Blur Elements */
+    .blurOne,
     .blurTwo {
         display: none;
     }
